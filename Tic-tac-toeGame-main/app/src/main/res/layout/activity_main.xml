@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        style="@style/CardView.Dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TitaTo"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        style="@style/CardView.Dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TitaTo2"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="70dp"
+
+    />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+
+
+
+        >
+
+
+        <Button
+            android:background="@color/sky"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/btn1"
+            android:onClick="Check"
+            android:textSize="19dp"
+
+            />
+
+
+        <Button
+            android:id="@+id/btn2"
+            android:textSize="19dp"
+            android:layout_marginLeft="8dp"
+            android:background="@color/sky"
+            android:onClick="Check" />
+
+        <Button
+            android:background="@color/sky"
+            android:layout_marginLeft="8dp"
+            android:textSize="19dp"
+            android:id="@+id/btn3"
+            android:onClick="Check"/>
+
+
+        <Button
+            android:background="@color/sky"
+            android:layout_marginBottom="8dp"
+            android:textSize="19dp"
+            android:id="@+id/btn4"
+            android:onClick="Check"
+            />
+
+        <Button
+            android:background="@color/sky"
+            android:layout_marginLeft="8dp"
+            android:textSize="19dp"
+            android:id="@+id/btn5"
+            android:onClick="Check"/>
+
+        <Button
+            android:background="@color/sky"
+            android:layout_marginLeft="8dp"
+            android:textSize="19dp"
+            android:id="@+id/btn6"
+            android:onClick="Check"/>
+
+        <Button
+            android:background="@color/sky"
+            android:id="@+id/btn7"
+            android:textSize="19dp"
+            android:onClick="Check"
+            />
+
+        <Button
+            android:background="@color/sky"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/btn8"
+            android:onClick="Check"
+            android:textSize="19dp"
+            android:shadowColor="@color/pink"/>
+
+        <Button
+            android:background="@color/pink"
+            android:layout_marginLeft="8dp"
+            android:textSize="19dp"
+            android:id="@+id/btn9"
+            android:onClick="Check"/>
+
+ </GridLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reset"
+        android:layout_marginTop="20dp"
+        android:text="@string/Resetbtn"
+        android:textSize="18dp"
+        android:onClick="resetGame"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/winning_rate"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+       android:id="@+id/forx"
+        android:hint="@string/forX"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/for0"
+       android:hint="@string/foro"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        />
+
+
+</LinearLayout>
