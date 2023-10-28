@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="TitaTo">TicTacToe</string>
+    <string name="TitaTo2">Fun and only fun</string>
+    <string name="winning_rate">Winners count:</string>
+    <string name="X">X</string>
+    <string name="o">0</string>
+    <string name="X0">X---------0</string>
+    <string name="foro">Zero-0</string>
+    <string name="forX">X-0</string>
+    <string name="Resetbtn">Reset</string>
+
+
+</resources>
